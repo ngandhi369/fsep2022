@@ -1,0 +1,126 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Weather Visualization</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+            <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <img src="static/img/my_logo.jpg" style="width:45px;" alt="" class="img-fluid"><h1 class="logo me-auto mx-3"><a href="/">FSEP</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+
+
+          <li class="dropdown"><a href="#"><span>Exploratory Analysis</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/parking">Parking Offences</a></li>
+
+              <li class="dropdown"><a href="#"><span>Road Accident</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/road_weather">Road & Weather</a></li>
+                  <li><a href="/lane">Lane Wise</a></li>
+                  <li><a href="/reason">Reason Wise</a></li>
+                  <li><a href="/vehicle">Vehicle Wise</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="/u_analysis">Analysis on user input</a></li>
+
+          <li class="dropdown"><a href="#" class="active"><span>Visualization</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="/w_visual">Weather Visualization</a></li>
+                <li><a href="/c_visual">Cloudy Weather(Deep Analysis)</a></li>
+                <li><a href="/v_visual">Vehicle Visualization</a></li>
+              </ul>
+          </li>
+
+          <li><a href="/prediction">Road Accident Prediction</a></li>
+
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <br><br><br><br>
+
+    <center>
+
+    <div class='tableauPlaceholder' id='viz1652447353978' style='position: relative'>
+      <noscript>
+        <a href='#'><img alt='Weather story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2014_16482026982010&#47;weatherstory&#47;1_rss.png' style='border: none' /></a>
+      </noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='2014_16482026982010&#47;weatherstory' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2014_16482026982010&#47;weatherstory&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+  </center>
+
+    <script type='text/javascript'>
+
+      var divElement = document.getElementById('viz1652447353978');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='1016px';
+      vizElement.style.height='991px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  </html>

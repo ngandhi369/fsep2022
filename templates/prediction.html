@@ -1,0 +1,116 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Prediction</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Sailor - v4.7.0
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+<body>
+
+
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <img src="static/img/my_logo.jpg" style="width:45px;" alt="" class="img-fluid"><h1 class="logo me-auto mx-3"><a href="/">FSEP</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+
+
+          <li class="dropdown"><a href="#"><span>Exploratory Analysis</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/parking">Parking Offences</a></li>
+
+              <li class="dropdown"><a href="#"><span>Road Accident</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/road_weather">Road & Weather</a></li>
+                  <li><a href="/lane">Lane Wise</a></li>
+                  <li><a href="/reason">Reason Wise</a></li>
+                  <li><a href="/vehicle">Vehicle Wise</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="/u_analysis">Analysis on user input</a></li>
+
+          <li class="dropdown"><a href="#"><span>Visualization</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="/w_visual">Weather Visualization</a></li>
+                <li><a href="/c_visual">Cloudy Weather(Deep Analysis)</a></li>
+                <li><a href="/v_visual">Vehicle Visualization</a></li>
+              </ul>
+          </li>
+
+          <li><a href="/prediction" class="active">Road Accident Prediction</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+    
+
+    <div class="container mt-5 pt-5">
+      <div class="card text-center">
+        <div class="card-header"><h3><b>Simple Linear Regression</b></h3></div>
+        <div class="card-body">
+          <!-- <h5 class="card-title"></h5> -->
+          <p class="card-text mx-5 px-5" style="font-size:18px;">Simple linear regression is a regression model that estimates the relationship between one independent variable and one dependent variable using a straight line. Both variables should be quantitative.</p>
+          <a href="/slr" class="btn btn-primary">Go to Predict</a>
+        </div>
+        <div class="card-footer text-muted">Predict for particular year</div>
+      </div>
+
+      <div class="card text-center my-5">
+        <div class="card-header"><h3><b>Multi-Linear Regression</b></h3></div>
+        <div class="card-body">
+          <!-- <h5 class="card-title"></h5> -->
+          <p class="card-text mx-5 px-5" style="font-size:18px;">Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. Multiple regression is an extension of linear (OLS) regression that uses just one explanatory variable.</p>
+          <a href="/mlr_time" class="btn btn-primary">Predict based on Time-span</a>
+          <a href="/mlr_month" class="btn btn-primary">Predict based in Month</a>
+        </div>
+        <div class="card-footer text-muted">Predict for particular year for different time-span and month</div>
+      </div>
+    </div>
+
+</body>
+</html>
